@@ -1,5 +1,5 @@
 import React from 'react'
-import './mission.css'
+import './missions.css'
 
 type Props = {}
 
