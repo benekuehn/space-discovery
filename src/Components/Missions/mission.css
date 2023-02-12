@@ -1,0 +1,60 @@
+section {
+    max-width: 918px;
+    margin: 6rem 4rem;
+}
+
+.missionWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem; 
+}
+
+.missionCard {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.missionCard:hover {
+
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+    transform: scale(1.025);
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.02);
+
+}
+
+.missionCard > img {
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.missionCard .text {
+    margin-left: 2rem;
+    line-height: 0.5rem;
+}
+
+section > h1 {
+    margin-bottom: 3rem;
+}
+
+.text > p {
+
+    color: gray;
+
+}
+
+@media (min-width: 1000px) {
+    section {
+        margin: 6rem auto;
+    }
+    
+    .missionWrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
